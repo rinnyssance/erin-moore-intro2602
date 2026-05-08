@@ -2,7 +2,7 @@
 
 ## About This Repository
 
-This repository contains my coursework, notes, exercises, and projects for the Intro to Programming course through [Code the Dream](https://codethedream.org?utm_source=chatgpt.com).
+This repository contains my coursework, notes, exercises, and projects for the Intro to Programming course through [Code the Dream](https://codethedream.org).
 
 The course focuses on building a strong foundation in web development and programming concepts using JavaScript, HTML, CSS, and APIs.
 
