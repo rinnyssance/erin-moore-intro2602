@@ -100,4 +100,4 @@ This repository includes:
 
 Erin Moore
 
-Aspiring bioinformatics researcher, data scientist, and technologist focused on biology, machine learning, and community impact.
+Training bioinformatics researcher, data scientist, and technologist focused on biology, machine learning, and community impact.
