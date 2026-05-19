@@ -1,0 +1,100 @@
+/* Erin Moore Portfolio - Lesson 6 CSS */
+
+body {
+    background-color: #e8e8e8;
+    color: #0f4f7a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #0f75aa;
+    padding: 16px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffa82b;
+}
+
+h1 {
+    background-color: #0f75aa;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    padding: 40px 20px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 85%;
+    max-width: 900px;
+    border-left: 8px solid #f77f20;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #f77f20;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+#Experience ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#Experience li {
+    background-color: #ffa82b;
+    color: #0f4f7a;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    font-weight: bold;
+}
+
+#Connect ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#Connect a {
+    background-color: #0aa7d7;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#Connect a:hover {
+    background-color: #f77f20;
+}
+
+#Skills,
+#Projects {
+    border-left-color: #0aa7d7;
+}
