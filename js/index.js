@@ -21,7 +21,7 @@ const skills = [
     "Synthetic Biology"
 ];
 
-const skillsSection = document.getElementById("Skills");
+const skillsSection = document.getElementById("skills");
 const skillsList = skillsSection.querySelector("ul");
 
 for (let i = 0; i < skills.length; i++) {
