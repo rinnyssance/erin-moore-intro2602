@@ -1,4 +1,4 @@
-/* Erin Moore Portfolio - Lesson 6 CSS */
+/* I hope you are happy with these changes I made in my files!!! */
 
 body {
     background-color: #e8e8e8;
@@ -57,7 +57,7 @@ p {
     font-size: 18px;
 }
 
-#Experience ul {
+#experience ul {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -65,7 +65,7 @@ p {
     list-style-type: none;
 }
 
-#Experience li {
+#experience li {
     background-color: #ffa82b;
     color: #0f4f7a;
     padding: 15px;
@@ -74,14 +74,14 @@ p {
     font-weight: bold;
 }
 
-#Connect ul {
+#connect ul {
     display: flex;
     gap: 20px;
     padding: 0;
     list-style-type: none;
 }
 
-#Connect a {
+#connect a {
     background-color: #0aa7d7;
     color: white;
     text-decoration: none;
@@ -90,11 +90,11 @@ p {
     font-weight: bold;
 }
 
-#Connect a:hover {
+#connect a:hover {
     background-color: #f77f20;
 }
 
-#Skills,
-#Projects {
+#skills,
+#projects {
     border-left-color: #0aa7d7;
 }
