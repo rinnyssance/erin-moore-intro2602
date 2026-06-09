@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erin's Open API Project</title>
+
+    <link rel="stylesheet" href="css/openapi.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Weather Dashboard</h1>
+        <p>
+            This page uses the Open-Meteo API to display real-time weather
+            information for Norfolk, Virginia.
+        </p>
+    </header>
+
+    <main>
+
+        <button id="getWeather">Get Current Weather</button>
+
+        <section id="weather-container">
+
+            <h2>Current Weather Conditions</h2>
+
+            <p>
+                🌡️ Temperature:
+                <span id="temperature">Click the button above</span>
+            </p>
+
+            <p>
+                💨 Wind Speed:
+                <span id="windspeed">Click the button above</span>
+            </p>
+
+        </section>
+
+        <section id="about-api">
+            <h2>About This Project</h2>
+
+            <p>
+                This project was created for Code the Dream Lesson 10.
+                It demonstrates how to use JavaScript Fetch requests to
+                retrieve data from a public API and display that information
+                on a web page.
+            </p>
+        </section>
+
+    </main>
+
+    <script src="js/openapi.js"></script>
+
+</body>
+</html>
