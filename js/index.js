@@ -29,6 +29,7 @@ for (let i = 0; i < skills.length; i++) {
     skill.innerText = skills[i];
     skillsList.appendChild(skill);
 }
+
 const messageForm = document.querySelector('form[name="leave_message"]');
 
 messageForm.addEventListener("submit", (event) => {
@@ -67,3 +68,22 @@ messageForm.addEventListener("submit", (event) => {
 
     messageForm.reset();
 });
+
+fetch("https://api.github.com/users/rinnyssance/repos")
+    .then((response) => response.json())
+    .then((data) => {
+        const repositories = data;
+        console.log(repositories);
+
+        const projectSection = document.getElementById("projects");
+        const projectList = projectSection.querySelector("ul");
+
+        for (let i = 0; i < repositories.length; i++) {
+            const project = document.createElement("li");
+            project.innerText = repositories[i].name;
+            projectList.appendChild(project);
+        }
+    })
+    .catch((error) => {
+        console.error("An error occurred:", error);
+    });
