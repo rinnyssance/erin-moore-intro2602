@@ -86,4 +86,12 @@ fetch("https://api.github.com/users/rinnyssance/repos")
     })
     .catch((error) => {
         console.error("An error occurred:", error);
+
+        const projectSection = document.getElementById("projects");
+        const errorMessage = document.createElement("p");
+
+        errorMessage.innerText =
+            "Sorry, my projects could not be loaded right now. Please try again later.";
+
+        projectSection.appendChild(errorMessage);
     });
