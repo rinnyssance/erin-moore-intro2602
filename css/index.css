@@ -1,4 +1,4 @@
-/* I hope you are happy with these changes I made in my files!!! */
+/* STRESSFUL */
 
 body {
     background-color: #e8e8e8;
@@ -98,6 +98,26 @@ p {
 #projects {
     border-left-color: #0aa7d7;
 }
+
+/* Projects Section */
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#projects li {
+    background-color: #0aa7d7;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    font-weight: bold;
+}
+
 /* Leave a Message Form */
 
 #leave-message form {
