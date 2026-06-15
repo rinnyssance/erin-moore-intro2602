@@ -98,6 +98,25 @@ p {
 #projects {
     border-left-color: #0aa7d7;
 }
+
+/* Skills Section */
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#skills li {
+    background-color: #0aa7d7;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
 /* Leave a Message Form */
 
 #leave-message form {
